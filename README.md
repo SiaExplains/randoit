@@ -1,6 +1,17 @@
 # randoit
 
-make random content such as numbers, characters, terms, sentences, etc.
+randoit is a javascript library that helps to generate random content such as:
+
+-   number (decimal, hexadecimal, binary, octal, etc.)
+-   characters (in range, in case)
+-   terms, names
+-   time, date and duration
+-   passwords, capctah, keys
+-   sentences, pharases
+-   random with weight !!!
+-   locations (such as cities, countries,etc.)
+-   lorem ipsum texts
+-   etc.
 
 ## Installation
 

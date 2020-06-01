@@ -1,28 +1,28 @@
 {
-  "name": "randoit",
-  "version": "1.0.0",
-  "description": "make random content such as numbers, characters, terms, sentences, etc.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/SiaQnbr/randoit.git"
-  },
-  "keywords": [
-    "random",
-    "content-generator",
-    "random",
-    "number",
-    "random",
-    "character",
-    "rnd"
-  ],
-  "author": "Siavash Ghanbari",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/SiaQnbr/randoit/issues"
-  },
-  "homepage": "https://github.com/SiaQnbr/randoit#readme"
+    "name": "randoit",
+    "version": "1.1.1",
+    "description": "make random content such as numbers, characters, terms, sentences, etc.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/SiaQnbr/randoit.git"
+    },
+    "keywords": [
+        "random",
+        "content-generator",
+        "random",
+        "number",
+        "random",
+        "character",
+        "rnd"
+    ],
+    "author": "Siavash Ghanbari",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/SiaQnbr/randoit/issues"
+    },
+    "homepage": "https://github.com/SiaQnbr/randoit#readme"
 }

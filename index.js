@@ -11,4 +11,5 @@ module.exports = {
     rgb: randoitColors.rgb,
     rgbCSS: randoitColors.rgbCSS,
     hexcolor: randoitColors.hexcolor,
+    hslColor: randoitColors.hslColor,
 };

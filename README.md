@@ -6,6 +6,17 @@ make random content such as numbers, characters, terms, sentences, etc.
 
 `npm install randoit`
 
+### Next Version features
+
+-   random password
+-   captcha text
+-   random times of day
+-   random day of years
+
+### Version 1.1.2
+
+-   `hslColor()` : generate colors in hsl format
+
 ### Version 1.1.1
 
 These functions has been added:
@@ -97,5 +108,13 @@ generate random colors in hexadecimal format
 <pre>
 for (let i = 0; i < 10; i++) {
     console.log(radiot.hexcolor());
+}
+</pre>
+
+generate random colors in hsl format
+
+<pre>
+for (let i = 0; i < 10; i++) {
+    console.log(radiot.hslColor());
 }
 </pre>

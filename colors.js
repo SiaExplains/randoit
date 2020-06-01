@@ -23,8 +23,17 @@ const hexcolor = () => {
     return `#${red}${green}${blue}`;
 };
 
+const hslColor = () => {
+    let hue = randoitCore.numberRange(0, 360);
+    let saturation = randoitCore.numberRange(0, 100);
+    let lightness = randoitCore.numberRange(0, 100);
+
+    return `hsl(${hue},${saturation}%,${lightness}%)`;
+};
+
 module.exports = {
     rgb: rgb,
     rgbCSS: rgbCSS,
     hexcolor: hexcolor,
+    hslColor: hslColor,
 };

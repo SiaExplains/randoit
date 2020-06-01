@@ -44,3 +44,8 @@ for (let i = 0; i < 10; i++) {
 for (let i = 0; i < 10; i++) {
     console.log(radiot.hexcolor());
 }
+
+// generate random colors in hsl format
+for (let i = 0; i < 10; i++) {
+    console.log(radiot.hslColor());
+}

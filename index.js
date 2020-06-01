@@ -1,30 +1,14 @@
-const numberRange = (min, max) => {
-    return Math.floor(Math.random() * (max - min)) + min;
-};
-
-const number = (max) => {
-    return Math.floor(Math.random() * max) + 1;
-};
-
-const charUpper = () => {
-    return String.fromCharCode(numberRange(65, 90));
-};
-
-const charLower = () => {
-    return String.fromCharCode(numberRange(97, 122));
-};
-
-const char = () => {
-    if (number(2) === 2) {
-        return charUpper();
-    }
-    return charLower();
-};
+const randoitCore = require('./core');
+const randoitColors = require('./colors');
 
 module.exports = {
-    number: number,
-    numberRange: numberRange,
-    char: char,
-    charLower: charLower,
-    charUpper: charUpper,
+    number: randoitCore.number,
+    numberRange: randoitCore.numberRange,
+    char: randoitCore.char,
+    charLower: randoitCore.charLower,
+    charUpper: randoitCore.charUpper,
+    charRange: randoitCore.charRange,
+    rgb: randoitColors.rgb,
+    rgbCSS: randoitColors.rgbCSS,
+    hexcolor: randoitColors.hexcolor,
 };

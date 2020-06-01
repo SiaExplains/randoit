@@ -24,3 +24,23 @@ console.log('-----------------');
 for (let i = 0; i < 10; i++) {
     console.log(radiot.char());
 }
+console.log('-----------------');
+// generate random colors in rgb format
+for (let i = 0; i < 10; i++) {
+    console.log(radiot.rgb());
+}
+console.log('-----------------');
+// generate random colors in rgb format and ready for set css attribute!
+for (let i = 0; i < 10; i++) {
+    console.log(radiot.rgbCSS());
+}
+
+// generate random characters in range 'B' to 'G'
+for (let i = 0; i < 10; i++) {
+    console.log(radiot.charRange('B', 'G'));
+}
+
+// generate random colors in hexadecimal format
+for (let i = 0; i < 10; i++) {
+    console.log(radiot.hexcolor());
+}

@@ -34,18 +34,29 @@ console.log('-----------------');
 for (let i = 0; i < 10; i++) {
     console.log(radiot.rgbCSS());
 }
-
+console.log('-----------------');
 // generate random characters in range 'B' to 'G'
 for (let i = 0; i < 10; i++) {
     console.log(radiot.charRange('B', 'G'));
 }
-
+console.log('-----------------');
 // generate random colors in hexadecimal format
 for (let i = 0; i < 10; i++) {
     console.log(radiot.hexcolor());
 }
-
+console.log('-----------------');
 // generate random colors in hsl format
 for (let i = 0; i < 10; i++) {
     console.log(radiot.hslColor());
+}
+console.log('-----------------');
+// generate random day of week
+for (let i = 0; i < 10; i++) {
+    console.log(radiot.dayOfWeek());
+}
+
+console.log('-----------------');
+// generate random month of year
+for (let i = 0; i < 10; i++) {
+    console.log(radiot.monthOfYear());
 }

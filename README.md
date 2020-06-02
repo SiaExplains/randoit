@@ -24,6 +24,12 @@ randoit is a javascript library that helps to generate random content such as:
 -   random times of day
 -   random day of years
 
+### Version 1.1.3
+
+-   add datetime feature
+-   generate random day of week (by name)
+-   generate random month of year (by name)
+
 ### Version 1.1.2
 
 -   `hslColor()` : generate colors in hsl format
@@ -127,5 +133,21 @@ generate random colors in hsl format
 <pre>
 for (let i = 0; i < 10; i++) {
     console.log(radiot.hslColor());
+}
+</pre>
+
+generate random day of week
+
+<pre>
+for (let i = 0; i < 10; i++) {
+    console.log(radiot.dayOfWeek());
+}
+</pre>
+
+generate random month of year
+
+<pre>
+for (let i = 0; i < 10; i++) {
+    console.log(radiot.monthOfYear());
 }
 </pre>

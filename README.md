@@ -63,41 +63,41 @@ These functions has been added:
 #### Numbers
 
 -   generate random numbers from 1 to 100
-    `radiot.number(100);`
+    `randoit.number(100);`
 -   generate random numbers between 10 to 20
-    `radiot.numberRange(10, 20);`
+    `randoit.numberRange(10, 20);`
 -   generate random hexadecimal digit
-    `radiot.hexadecimal(10, 20);`
+    `randoit.hexadecimal(10, 20);`
 
 #### Characters
 
 -   generate random characters in uppercase
-    `radiot.charUpper();`
+    `randoit.charUpper();`
 -   generate random characters in lowercase
-    `radiot.charLower();`
+    `randoit.charLower();`
 -   generate random characters
-    `radiot.char();`
+    `randoit.char();`
 -   generate random characters in range 'B' to 'G'
-    `radiot.charRange('B', 'G');`
+    `randoit.charRange('B', 'G');`
 
 #### Colors
 
 -   generate random colors in rgb format
-    `radiot.rgb();`
+    `randoit.rgb();`
 -   generate random colors in rgb format and ready for set css attribute!
-    `radiot.rgbCSS()`
+    `randoit.rgbCSS()`
 -   generate random colors in hsl format
-    `radiot.hslColor();`
+    `randoit.hslColor();`
 -   generate random colors in hexadecimal format
-    `radiot.hexcolor();`
+    `randoit.hexcolor();`
 
 #### Date and Time
 
 -   generate random day of week
-    `radiot.dayOfWeek();`
+    `randoit.dayOfWeek();`
 
 -   generate random month of year
-    `radiot.monthOfYear();`
+    `randoit.monthOfYear();`
 
 #### Intelligent random content generate by weight!
 

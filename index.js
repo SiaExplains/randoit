@@ -1,6 +1,7 @@
 const randoitCore = require('./core');
 const randoitColors = require('./colors');
 const randoitDateTime = require('./datetime');
+const randoitWeight = require('./weight');
 
 module.exports = {
     number: randoitCore.number,
@@ -15,4 +16,5 @@ module.exports = {
     hslColor: randoitColors.hslColor,
     dayOfWeek: randoitDateTime.dayOfWeek,
     monthOfYear: randoitDateTime.monthOfYear,
+    byWeight: randoitWeight.byWeight,
 };

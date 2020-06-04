@@ -24,6 +24,10 @@ randoit is a javascript library that helps to generate random content such as:
 -   random times of day
 -   random day of years
 
+### Version 1.1.4
+
+-   add weight for range-functions! you can define a chance of each range be setting a weight for each segment!
+
 ### Version 1.1.3
 
 -   add datetime feature
@@ -149,5 +153,32 @@ generate random month of year
 <pre>
 for (let i = 0; i < 10; i++) {
     console.log(radiot.monthOfYear());
+}
+</pre>
+
+generate random numbers by weight!
+
+<pre>
+for (let i = 0; i < 4; i++) {
+    console.log(
+        randoit.byWeight(randoit.numberRange, [
+            { from: 1, to: 5, weight: 1 },
+            { from: 6, to: 10, weight: 4 },
+            { from: 11, to: 20, weight: 1 },
+        ])
+    );
+}
+</pre>
+
+generate random characters by weight!
+
+<pre>
+for (let i = 0; i < 10; i++) {
+    console.log(
+        randoit.byWeight(randoit.charRange, [
+            { from: 'A', to: 'F', weight: 6 }, // 75% pickup a random between 'A' to 'F
+            { from: 'G', to: 'Z', weight: 2 }, // 25% choose a random between 'G' yo 'Z'
+        ])
+    );
 }
 </pre>

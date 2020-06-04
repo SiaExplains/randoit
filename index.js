@@ -6,6 +6,7 @@ const randoitWeight = require('./weight');
 module.exports = {
     number: randoitCore.number,
     numberRange: randoitCore.numberRange,
+    hexadecimal: randoitCore.hexadecimal,
     char: randoitCore.char,
     charLower: randoitCore.charLower,
     charUpper: randoitCore.charUpper,

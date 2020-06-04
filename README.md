@@ -60,125 +60,61 @@ These functions has been added:
 
 ## Exmaples
 
-generate random numbers from 1 to 100
+#### Numbers
 
+-   generate random numbers from 1 to 100
+    `radiot.number(100);`
+-   generate random numbers between 10 to 20
+    `radiot.numberRange(10, 20);`
+-   generate random hexadecimal digit
+    `radiot.hexadecimal(10, 20);`
+
+#### Characters
+
+-   generate random characters in uppercase
+    `radiot.charUpper();`
+-   generate random characters in lowercase
+    `radiot.charLower();`
+-   generate random characters
+    `radiot.char();`
+-   generate random characters in range 'B' to 'G'
+    `radiot.charRange('B', 'G');`
+
+#### Colors
+
+-   generate random colors in rgb format
+    `radiot.rgb();`
+-   generate random colors in rgb format and ready for set css attribute!
+    `radiot.rgbCSS()`
+-   generate random colors in hsl format
+    `radiot.hslColor();`
+-   generate random colors in hexadecimal format
+    `radiot.hexcolor();`
+
+#### Date and Time
+
+-   generate random day of week
+    `radiot.dayOfWeek();`
+
+-   generate random month of year
+    `radiot.monthOfYear();`
+
+#### Intelligent random content generate by weight!
+
+-   generate random numbers by weight!
 <pre>
-for (let i = 0; i < 10; i++) {
-    console.log(radiot.number(100));
-}
-</pre>
-
-generate random numbers between 10 to 20
-
-<pre>
-for (let i = 0; i < 10; i++) {
-    console.log(radiot.numberRange(10, 20));
-}
-</pre>
-
-generate 10 random characters in uppercase
-
-<pre>
-for (let i = 0; i < 10; i++) {
-    console.log(radiot.charUpper());
-}
-</pre>
-
-generate 10 random characters in lowercase
-
-<pre>
-for (let i = 0; i < 10; i++) {
-    console.log(radiot.charLower());
-}
-</pre>
-
-generate 10 random characters
-
-<pre>
-for (let i = 0; i < 10; i++) {
-    console.log(radiot.char());
-}
-</pre>
-
-generate random colors in rgb format
-
-<pre>
-for (let i = 0; i < 10; i++) {
-    console.log(radiot.rgb());
-}
-</pre>
-
-generate random colors in rgb format and ready for set css attribute!
-
-<pre>
-for (let i = 0; i < 10; i++) {
-    console.log(radiot.rgbCSS());
-}
-</pre>
-
-generate random characters in range 'B' to 'G'
-
-<pre>
-for (let i = 0; i < 10; i++) {
-    console.log(radiot.charRange('B', 'G'));
-}
-</pre>
-
-generate random colors in hexadecimal format
-
-<pre>
-for (let i = 0; i < 10; i++) {
-    console.log(radiot.hexcolor());
-}
-</pre>
-
-generate random colors in hsl format
-
-<pre>
-for (let i = 0; i < 10; i++) {
-    console.log(radiot.hslColor());
-}
-</pre>
-
-generate random day of week
-
-<pre>
-for (let i = 0; i < 10; i++) {
-    console.log(radiot.dayOfWeek());
-}
-</pre>
-
-generate random month of year
-
-<pre>
-for (let i = 0; i < 10; i++) {
-    console.log(radiot.monthOfYear());
-}
-</pre>
-
-generate random numbers by weight!
-
-<pre>
-for (let i = 0; i < 4; i++) {
-    console.log(
-        randoit.byWeight(randoit.numberRange, [
+randoit.byWeight(randoit.numberRange, [
             { from: 1, to: 5, weight: 1 },
             { from: 6, to: 10, weight: 4 },
             { from: 11, to: 20, weight: 1 },
-        ])
-    );
-}
+        ]
 </pre>
 
-generate random characters by weight!
+-   generate random characters by weight!
 
 <pre>
-for (let i = 0; i < 10; i++) {
-    console.log(
-        randoit.byWeight(randoit.charRange, [
+  randoit.byWeight(randoit.charRange, [
             { from: 'A', to: 'F', weight: 6 }, // 75% pickup a random between 'A' to 'F
             { from: 'G', to: 'Z', weight: 2 }, // 25% choose a random between 'G' yo 'Z'
-        ])
-    );
-}
+        ]
 </pre>

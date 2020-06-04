@@ -24,8 +24,5 @@
     "bugs": {
         "url": "https://github.com/SiaQnbr/randoit/issues"
     },
-    "homepage": "https://github.com/SiaQnbr/randoit#readme",
-    "publishConfig": {
-        "registry": "https://npm.pkg.github.com/"
-    }
+    "homepage": "https://github.com/SiaQnbr/randoit#readme"
 }

@@ -24,6 +24,10 @@ randoit is a javascript library that helps to generate random content such as:
 -   random times of day
 -   random day of years
 
+### Version 1.2.1
+
+-   generate random location based on cirucle area
+
 ### Version 1.1.4
 
 -   add weight for range-functions! you can define a chance of each range be setting a weight for each segment!

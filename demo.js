@@ -82,3 +82,14 @@ for (let i = 0; i < 10; i++) {
         ])
     );
 }
+
+const P = {
+    latitude: 37.7768006,
+    longitude: -122.4187928,
+};
+
+const R = 700; // meters
+
+for (let i = 0; i < 10; i++) {
+    console.log(randoit.randomInCircle(P, R));
+}
